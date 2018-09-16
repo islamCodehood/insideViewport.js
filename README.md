@@ -1,5 +1,5 @@
  <h1 align="center">insideViewport.js</h1>
-<p align="center" fontSize="24px">An ultra light weight library that detects if an element is in viewport and lets you do some action to it.</p>
+<b align="center">An ultra light weight library that detects if an element is in viewport and lets you do some action to it.</b>
 <p align="center">
   <b>Some Links:</b><br>
   <a href="#">Link 1</a> |
