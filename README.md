@@ -59,3 +59,7 @@ insideViewport({
 
 - This is an open source project. You can contribute, report bugs, pull request.
 
+
+### License
+
+- This project is under [MIT License](https://github.com/Islam888/insideViewport.js/blob/master/LICENSE).
