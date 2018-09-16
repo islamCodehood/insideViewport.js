@@ -3,3 +3,13 @@
 </div>
 <h1 align="center">insideViewport.js</h1>
   <p align="center"><b>An ultra light weight library that detects if an element is in viewport and lets you do some action to it.</b></p>
+
+
+## Contents:
+
+- [Description](#description).
+- [Start Easy](#start-easy).
+- [Tutorial](#tutorial).
+- [Contribute](#contribute).
+- [License](#license).
+
