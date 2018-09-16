@@ -37,7 +37,7 @@
  2. Paste it at the top of your JS file.
  
  ### Use:
- 
+
  ```javascript
 insideViewport({
   classesNames: ['example1', 'example2'],//An array of strings of class names. It can be a single class or as many as you want.
@@ -49,5 +49,13 @@ insideViewport({
   }
 })
 ```
+- You need to call insideViewport() with an object of three or two parameters.
+- First parameters: `classesNames` which is an array of strings of class names of elements you want to detect.
+- Second parameter(optional): `position` which is a number value from 0 to less than 1. It controls where will be the element in the viewport area when the action done on it.
+- Third parameter: `action(elements)` which is a function to do some action on the element when in viewport.
 
+
+### Contribute
+
+- This is an open source project. You can contribute, report bugs, pull request.
 
