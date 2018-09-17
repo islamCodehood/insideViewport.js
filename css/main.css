@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
 }
 
 html,
@@ -16,13 +17,15 @@ body {
     height: 100%;
     display: grid;
     grid-template-columns: repeat(6, 1fr);
-    grid-template-rows: 60px 95vh 100vh 80px;
+    grid-template-rows: 60px 80vh 100vh 80px;
     grid-template-areas: 
         "nav nav nav nav nav nav"
         "header header header header header header"
         ". main main main main ."
         "footer footer footer footer footer footer";
+    
 }
+
 
 #nav-section {
     grid-area: nav;
@@ -41,6 +44,7 @@ body {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    margin-bottom: 50px;
 }
 
 .backgd-img {
@@ -59,13 +63,12 @@ body {
 }
 
 
-#docs-section {
+main {
     grid-area: main;
-    background-color: beige;
     display: flex;
-    flex-wrap: wrap;
     flex-direction: column;
-    justify-content: flex-start;
+    flex-wrap: wrap;
+    width: 100%;
     
 }
 
@@ -80,6 +83,11 @@ footer {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
+}
+
+#logo svg {
+    width: 50px;
+    height: 50px;
 }
 
 #logo-img {
@@ -162,5 +170,37 @@ header h1{
     width: 30%;
     justify-content: center;
     align-items: center;
+}
+
+#why-section {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    align-items: center;
+    overflow-x: hidden;
+}
+
+#why-section h2 {
+    width: 50%;
+    font-size: 36px;
+    border: 2px solid;
+    border-radius: 3px;
+}
+#why-section ul {
+    list-style: none;
+    width: 50%;
+    font-size: 18px;
+    border: 2px solid;
+    border-radius: 3px;
+}
+
+#why-section li::first-letter {
+    font-size: 120%;
+    font-weight: 600;
+}
+
+
+#why-section li {
+    margin-bottom: 5px;
 }
 
