@@ -40,10 +40,8 @@
 
  ```javascript
 insideViewport({
-  classesNames: ['example1', 'example2'],//An array of strings of class names. It can be a single class or as many as you want.
-  
-  position: 0.5,//Optional. Any number from 0 to less than 1. This decide the position of the element when you want to call the function on.
-  
+  classesNames: ['example1', 'example2'],//An array of strings of class name(s).
+  position: 0.5,//Optional. It controls where will be the element in the viewport area when the action done on it.
   action(elements) {
     myfunc(elements) //The action you want to do on the element.
   }
