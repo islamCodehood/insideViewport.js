@@ -17,11 +17,11 @@ body {
     height: 100%;
     display: grid;
     grid-template-columns: repeat(6, 1fr);
-    grid-template-rows: 60px 80vh 100vh 80px;
+    grid-template-rows: 60px 80vh auto 80px;
     grid-template-areas: 
         "nav nav nav nav nav nav"
         "header header header header header header"
-        ". main main main main ."
+        "main main main main main main"
         "footer footer footer footer footer footer";
     
 }
@@ -69,7 +69,6 @@ main {
     flex-direction: column;
     flex-wrap: wrap;
     width: 100%;
-    
 }
 
 footer {
@@ -175,23 +174,29 @@ header h1{
 #why-section {
     display: flex;
     flex-wrap: wrap;
-    width: 100%;
+    width: 80%;
     align-items: center;
+    justify-content: space-around;
     overflow-x: hidden;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 50px;
 }
 
 #why-section h2 {
-    width: 50%;
+    width: 40%;
     font-size: 36px;
-    border: 2px solid;
-    border-radius: 3px;
+    /* border: 2px solid; */
+    border-top-left-radius: 45px;
+    border-bottom-left-radius: 45px;
+    background-color: #03e9ca;
+    direction: rtl;
+    padding: 20px 8px 20px 8px;
 }
 #why-section ul {
     list-style: none;
-    width: 50%;
+    width: 40%;
     font-size: 18px;
-    border: 2px solid;
-    border-radius: 3px;
 }
 
 #why-section li::first-letter {
@@ -202,5 +207,71 @@ header h1{
 
 #why-section li {
     margin-bottom: 5px;
+    /* border: 2px solid; */
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-color: #03e9ca;
+    padding: 8px 0 8px 8px;
 }
 
+#docs-section {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-around;
+    background-color:#f7f7f7;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#docs-section h2{
+    font-size: 30px; 
+    width: 100%;
+}
+#docs-section h3{
+    font-size: 20px; 
+    width: 100%;
+    text-align: center;
+}
+
+.sides-padding {
+    padding: 0 50px;
+}
+
+.steps {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.steps div {
+    width: 40%;
+
+}
+
+.steps-code {
+    width: 40%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    margin-bottom: 25px;
+    background-color: #282c34;
+}
+
+
+
+
+.steps-code p {
+    padding: 0 10px;
+    color: #999;
+    font-weight: 600;
+    background-color: rgb(32, 35, 42);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    line-height: 2;
+}
+
+code {
+    color: #fff;
+}
