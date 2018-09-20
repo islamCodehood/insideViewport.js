@@ -348,3 +348,12 @@ code {
 .step span {
     color: #f0db4f;
 }
+
+#code {
+    position: fixed;
+    top: -100px;
+    left: -100px;
+    background-color: transparent;
+    color: transparent;
+}
+                    
