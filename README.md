@@ -1,5 +1,5 @@
  <div align="center">
- <img width="175px" height="175px" src="https://github.com/Islam888/insideViewport.js/blob/master/logo.png">
+ <img width="175px" height="175px" src="https://github.com/Islam888/insideViewport.js/blob/master/logo (1).png">
 </div>
 <h1 align="center">insideViewport.js</h1>
   <p align="center"><b>An ultra light weight library that detects if an element is in viewport and lets you do some action to it.</b></p>
@@ -7,11 +7,14 @@
 
 ## Contents:
 
-- [Description](#description).
-- [Why use it?](#why-use-it).
-- [Tutorial](#tutorial).
-- [Contribute](#contribute).
-- [License](#license).
+- [Contents:](#contents)
+- [Description](#description)
+- [Why use it?](#why-use-it)
+- [Tutorial](#tutorial)
+  - [Setup:](#setup)
+  - [Use:](#use)
+  - [Contribute](#contribute)
+  - [License](#license)
 
 
 ## Description
