@@ -1,5 +1,5 @@
  <div align="center">
- <img width="175px" height="175px" src="https://github.com/Islam888/insideViewport.js/blob/master/logo (1).png">
+ <img width="175px" height="175px" src="https://github.com/Islam888/insideViewport.js/blob/master/img/logo%20(1).png">
 </div>
 <h1 align="center">insideViewport.js</h1>
   <p align="center"><b>An ultra light weight library that detects if an element is in viewport and lets you do some action to it.</b></p>
