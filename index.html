@@ -73,15 +73,15 @@
             </div>
 
             <nav>
-                <ul>
+                <ul id="nav-items">
                     <li>
-                        <a href="#/" class="active">Home</a>
+                        <a href="#/" class="home-link active">Home</a>
                     </li>
                     <li>
-                        <a href="#/">Docs</a>
+                        <a href="#docs-section" class="docs-link">Docs</a>
                     </li>
                     <li>
-                        <a href="#/">GitHub</a>
+                        <a href="https://github.com/Islam888/insideViewport.js" class="github-link">GitHub</a>
                     </li>
                 </ul>
             </nav>
@@ -101,18 +101,36 @@
             <section id="why-section">
                 <h2 class="why">?Why Use it</h2>
                 <ul class="reasons">
-                    <li>An ultra light weight (JUST 2.2KB)</li>
-                    <li>Written in pure vanilla javascript</li>
-                    <li>Compatible with all browsers</li>
-                    <li>Compatible even with old browsers versions</li>
-                    <li>No special setup or npm package install</li>
-                    <li>Just copy and paste code at your JS file</li>
+                    <li class="reason">An ultra light weight (JUST 2.2KB)</li>
+                    <li class="reason">Written in pure vanilla javascript</li>
+                    <li class="reason">Compatible with all browsers</li>
+                    <li class="reason">Compatible even with old browsers versions</li>
+                    <li class="reason">No special setup or npm package install</li>
+                    <li class="reason">Just copy and paste code at your JS file</li>
                 </ul>
             </section>
             <section id="docs-section">
                 <h2 class="sides-padding">Docs</h2>
                 <h3>Just 3 super easy steps.</h3>
-                <div class="steps">
+                <div class="step">
+                    <h4>Copy Code</h4>
+
+                    <div class="square">
+                        <p><a href="#/">copy</a></p>
+                    </div> 
+                </div>
+                <div class="step">
+                    <h4>Paste Code</h4>
+                    <p>on your <span>JS</span> file</p>
+                </div>
+                <div class="step">
+                    <h4>Call Function</h4>
+                    <div class="square">
+                        <p><a href="#/">syntax</a></p>
+                    </div> 
+                </div>
+            
+                <!-- <div class="steps">
                     <div class="steps-text">
                         <h4>Copy Code</h4>
                         <p>Just copy the code. It is ES5 to be compatible with all versions of browsers.</p>
@@ -153,7 +171,7 @@
                             </code>
                         </pre>
                     </div>
-                </div>
+                </div> -->
             </section>
         </main>
         <footer>
@@ -161,7 +179,7 @@
             <p>made with &#9829; by Islam Sayed</p>
         </footer>
     </div>
-
+    <script src="js/insideViewportInternal.js"></script>
     <script src="js/main.js"></script>
 </body>
 
