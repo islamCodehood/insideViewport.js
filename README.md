@@ -37,7 +37,7 @@
 
  ### Setup:
  1. Copy code in insideViewport.js file.
- 2. Paste it at the top of your JS file.
+ 2. Paste it in your JS file.
  
  ### Use:
 
@@ -46,19 +46,25 @@ insideViewport({
   classesNames: ['example1', 'example2'],//An array of strings of class name(s).
   position: 0.5,//Optional. It controls where will be the element in the viewport area when the action done on it.
   action(elements) {
-    myfunc(elements) //The action you want to do on the element.
+    myFunction(elements) //The action you want to do on the element.
+  }
+},
+{ //more objects(arguments).
+  classesNames: ['example3', 'example4'],
+  action(elements) {
+    myOtherFunction(elements) 
   }
 })
 ```
-- You need to call insideViewport() with an object of three or two parameters.
-- First parameters: `classesNames` which is an array of strings of class names of elements you want to detect.
-- Second parameter(optional): `position` which is a number value from 0 to less than 1. It controls where will be the element in the viewport area when the action done on it.
-- Third parameter: `action(elements)` which is a function to do some action on the element when in viewport.
-
+- You need to call insideViewport() with an object or any number of objects each one consists of three or two properties.
+- First property: `classesNames` which is an array of strings of class names of elements you want to detect.
+- Second property(optional): `position` which is a number value from 0 to less than 1. It controls where will be the element in the viewport area when the action done on it. As the number get bigger the element would be in higher position inside the viewport when the action done. For example, if the value was 0.5, the element would be in the middle of the viewport height when the function is called.
+- Third property: `action(elements)` which is a function to do some action on the element when in viewport.
+- You can use as many objects (arguments) as you need. Each one is intended to do the same action (same function) on one or multiple elements.
 
 ### Contribute
 
-- This is an open source project. You can contribute, report bugs, pull request.
+- This is an open source project. You can contribute, or report bugs.
 
 
 ### License
