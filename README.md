@@ -26,7 +26,7 @@
 
 ## Why use it?
 
-1. An ultra light weight (JUST 1KB).
+1. An ultra light weight (JUST 2KB).
 2. Written in pure vanilla javascript.
 3. Compatible with all browsers.
 4. Compatible with even old browsers, not only modern ones.
