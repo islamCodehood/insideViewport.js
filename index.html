@@ -10,9 +10,13 @@
     <meta name="author" content="Islam Sayed">
     <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/atom-one-dark.css">
+    <script src="js/highlight.pack.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
     <title>insideViewport.js</title>
 </head>
 
@@ -23,7 +27,9 @@
                 <!--                     <svg id="logo-img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22 22"><defs><linearGradient gradientUnits="userSpaceOnUse" y2="-2.623" x2="0" y1="986.67" id="0"><stop stop-color="#ffce3b"/><stop offset="1" stop-color="#ffd762"/></linearGradient><linearGradient y2="-2.623" x2="0" y1="986.67" gradientUnits="userSpaceOnUse"><stop stop-color="#ffce3b"/><stop offset="1" stop-color="#fef4ab"/></linearGradient></defs><g transform="matrix(1.99997 0 0 1.99997-10.994-2071.68)" fill="#da4453"><rect y="1037.36" x="7" height="8" width="8" fill="#32c671" rx="4"/><path d="m123.86 12.966l-11.08-11.08c-1.52-1.521-3.368-2.281-5.54-2.281-2.173 0-4.02.76-5.541 2.281l-53.45 53.53-23.953-24.04c-1.521-1.521-3.368-2.281-5.54-2.281-2.173 0-4.02.76-5.541 2.281l-11.08 11.08c-1.521 1.521-2.281 3.368-2.281 5.541 0 2.172.76 4.02 2.281 5.54l29.493 29.493 11.08 11.08c1.52 1.521 3.367 2.281 5.54 2.281 2.172 0 4.02-.761 5.54-2.281l11.08-11.08 58.986-58.986c1.52-1.521 2.281-3.368 2.281-5.541.0001-2.172-.761-4.02-2.281-5.54" fill="#fff" transform="matrix(.0436 0 0 .0436 8.177 1039.72)" stroke="none" stroke-width="9.512"/></g></svg>
  -->
                 <!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-                <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="485.213px" height="485.212px" viewBox="0 0 485.213 485.212" style="enable-background:new 0 0 485.213 485.212;" xml:space="preserve" fill="#b5f0e8">
+                <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                    x="0px" y="0px" width="485.213px" height="485.212px" viewBox="0 0 485.213 485.212" style="enable-background:new 0 0 485.213 485.212;"
+                    xml:space="preserve" fill="#b5f0e8">
                     <g>
                         <path d="M242.606,0C159.005,0,90.978,68.027,90.978,151.628c0,37.584,17.119,71.966,33.703,105.191
 		c13.859,27.867,26.948,54.166,26.948,76.765c0,16.759,13.565,30.321,30.327,30.321h121.3c16.765,0,30.331-13.562,30.331-30.321
@@ -90,7 +96,8 @@
             <header>
                 <h1>insideViewport.js</h1>
             </header>
-            <p>An ultra light weight library that detects if an element is in viewport and lets you do some action to it.</p>
+            <p>An ultra light weight library that detects if an element is in viewport and lets you do some action to
+                it.</p>
             <div class="btn-group">
                 <a href="#/">Docs</a>
                 <a href="#/">GitHub</a>
@@ -100,15 +107,16 @@
         <main>
             <section id="why-section">
                 <h2 class="why">?Why Use it</h2>
-                <ul class="reasons">
-                    <li class="reason">An ultra light weight (JUST 2.2KB)</li>
-                    <li class="reason">Written in pure vanilla javascript</li>
-                    <li class="reason">Compatible with all browsers</li>
-                    <li class="reason">Compatible even with old browsers versions</li>
-                    <li class="reason">No special setup or npm package install</li>
-                    <li class="reason">Just copy and paste code at your JS file</li>
-                </ul>
+                <ol class="reasons">
+                    <li class="reason"><span>1.</span><p>Ultra light weight (JUST 2.2KB).</p></li>
+                    <li class="reason"><span>2.</span><p>Written in pure vanilla javascript.</p></li>
+                    <li class="reason"><span>3.</span><p>Compatible with all browsers.</p></li>
+                    <li class="reason"><span>4.</span><p>Compatible even with old browsers versions.</p></li>
+                    <li class="reason"><span>5.</span><p>No special setup or npm package install.</p></li>
+                    <li class="reason"><span>6.</span><p>Just copy and paste code at your JS file.</p></li>
+                </ol>
             </section>
+            
             <section id="docs-section">
                 <h2 class="sides-padding">Docs</h2>
                 <h3>Just 3 super easy steps.</h3>
@@ -117,7 +125,7 @@
 
                     <div class="square">
                         <p><a href="#/" id="copy-code">copy</a></p>
-                    </div> 
+                    </div>
                     <textarea name="code" id="code" cols="1" rows="1">
                         var insideViewport=function(a){window.onscroll=function(){if(Array.isArray(a.classesNames))if(1<=a.position||0>a.position)console.log("Error! Position must be a number more than 0 and less than 1.");else{void 0===a.position&&(a.position=0);for(var d=a.classesNames,e=Array.isArray(d),f=0,d=e?d:d[Symbol.iterator]();;){var g;if(e){if(f>=d.length)break;g=d[f++]}else{if((f=d.next()).done)break;g=f.value}var h=g,b=document.getElementsByClassName(h);if(0===b.length)console.log("Error! Class(es) not found.");else for(var i=b,j=Array.isArray(i),k=0,i=j?i:i[Symbol.iterator]();;){var l;if(j){if(k>=i.length)break;l=i[k++]}else{if((k=i.next()).done)break;l=k.value}var m=l,c=m.getBoundingClientRect();0<=c.top&&0<=c.left&&c.top<=(window.innerHeight*(1-a.position)||document.documentElement.clientHeight*(1-a.position))&&c.right<=(window.innerWidth||document.documentElement.clientWidth)&&a.action(m)}}}else console.log("Error! classesNames must be an array.")}};
                     </textarea>
@@ -129,59 +137,53 @@
                 <div class="step">
                     <h4>Call Function</h4>
                     <div class="square">
-                        <p><a href="#/">syntax</a></p>
-                    </div> 
-                </div>
-            
-                <!-- <div class="steps">
-                    <div class="steps-text">
-                        <h4>Copy Code</h4>
-                        <p>Just copy the code. It is ES5 to be compatible with all versions of browsers.</p>
-                    </div>
-                    <div class="steps-code">
-                        <p>insideViewport.js</p>
-                        <pre>
-                            <code>
-
-                            </code>
-                        </pre>
+                        <p><a href="#syntax-section">syntax</a></p>
                     </div>
                 </div>
-                <div class="steps">
-                    <div class="steps-text">
-                        <h4>Paste Code</h4>
-                        <p>Paste it to your JS file.</p>
-                    </div>
-                    <div class="steps-code">
-                        <p>main.js</p>
-                        <pre>
-                            <code>
-
-                            </code>
-                        </pre>
-                    </div>
-                </div>
-                <div class="steps">
-                    <div class="steps-text">
-                        <h4>Call the function</h4>
-                        <p>Call inViewport({}) with the appropriate parameters.</p>
-                    </div>
-                    <div class="steps-code">
-                        <p>main.js</p>
-                        <pre>
-                            <code>
-
-                            </code>
-                        </pre>
-                    </div>
-                </div> -->
             </section>
+            <section id="syntax-section">
+                <div id="explain">
+                    <p>You need to call insideViewport() with an object or more objects.</p>
+                    <p><span class="explain-title">First property:</span> <span><em>classesNames</em></span> an array of strings of classes you want to detect.</p>
+                    <p><span class="explain-title">Second property(optional):</span> <span><em>position</em></span> a number value from 0 to < 1. It controls position of element in viewport when the action done on it.</p>
+                    <p><span class="explain-title">Third property:</span> <span><em>action(elements)</em></span> which is a function to do some action on the element when in viewport.</p>
+                </div>
+                <div id="code-syntax">
+                        <pre>
+                                <code class="js">
+insideViewport({
+  classesNames: ['example1', 'example2'],
+  position: 0.5,
+  action: function(elements) {
+    myFunction(elements)
+  }
+},
+{
+  classesNames: ['example3', 'example4'],
+  action: function(elements) {
+    myOtherFunction(elements) 
+  }
+})
+                                </code>
+                            </pre>
+                </div>
+                
+            </section>
+
         </main>
         <footer>
             <h3>insideViewport.js</h3>
-            <p>made with &#9829; by Islam Sayed</p>
+            <p>made with <span class="heart">&#9829;</span> by Islam Sayed</p>
+            <p>0020-1202-226-308</p>
+            <p><a class="email" href="mailto:islam.sayed8@google.com">islam.sayed8@google.com</a></p>
+            <ul class="social">
+                <li><a href="https://twitter.com/islam_sayed8"><i class="fab fa-twitter"></i></a></li>
+                <li><a href="https://www.linkedin.com/in/islam-sayed-ibrahim/"><i class="fab fa-linkedin-in"></i></a></li>
+                <li><a href="https://github.com/Islam888"><i class="fab fa-github-alt"></i></a></li>
+            </ul>
         </footer>
     </div>
+
     <script src="js/insideViewportInternal.js"></script>
     <script src="js/main.js"></script>
 </body>
