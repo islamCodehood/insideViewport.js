@@ -77,8 +77,8 @@ var insideViewport = function() {
   };
 };
 
-insideViewport({
-    classesNames: ['reason', 'why'],
+/* insideViewport({
+    classesNames: ['reasons', 'why'],
     action(element) {
       element.classList.add('why-section-shadow-transition')
       element.classList.add('why-section-shadow')
@@ -90,7 +90,7 @@ insideViewport({
     element.classList.add('square-box-shadow-transition')
     element.classList.add('square-box-shadow')
   }
-})
+}) */
 
 
 
