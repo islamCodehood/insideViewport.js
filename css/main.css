@@ -448,8 +448,9 @@ footer li:hover a {
 }
 
 footer .heart {
-    
+    color: rgb(184, 0, 114);
     font-size: 24px;
+    font-weight: bolder;
 }
 .email:hover {
     color: rgb(184, 0, 0);
