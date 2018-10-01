@@ -13,8 +13,8 @@
 - [Tutorial](#tutorial)
   - [Setup:](#setup)
   - [Use:](#use)
-  - [Contribute](#contribute)
-  - [License](#license)
+- [Contribute](#contribute)
+- [License](#license)
 
 
 ## Description
