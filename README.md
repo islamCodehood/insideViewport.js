@@ -5,6 +5,9 @@
   <p align="center"><b>An ultra light weight library that detects if an element is in viewport and lets you do some action to it.</b></p>
 
 
+[![](https://img.shields.io/npm/v/npm.svg?style=popout)](https://github.com/Islam888/insideViewport.js)
+
+
 ## Contents:
 
 - [Contents:](#contents)
