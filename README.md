@@ -6,7 +6,7 @@
 
 
 
-<div align="center">[![](https://img.shields.io/npm/v/@islam.sayed/insideviewport.js.svg?style=popout)](https://github.com/Islam888/insideViewport.js)</div>
+[![](https://img.shields.io/npm/v/@islam.sayed/insideviewport.js.svg?style=popout)](https://github.com/Islam888/insideViewport.js)
 
 
 ## Contents:
