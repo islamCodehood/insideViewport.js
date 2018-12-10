@@ -1,0 +1,26 @@
+{
+    "name": "@islam.sayed/insideviewport.js",
+    "version": "1.1.0",
+    "description": "An ultra light weight library that detects if an element is in viewport and lets you do some action to it.",
+    "license": "MIT",
+    "repository": "Islam888/insideViewport.js",
+    "main": "insideViewport.js",
+    "keywords": [
+        "inside",
+        "viewport",
+        "insideviewport",
+        "insideviewport.js",
+        "in viewport",
+        "enter",
+        "npm",
+        "package",
+        "Islam888",
+        "islam.sayed",
+        "ininviewport"
+    ],
+    "homepage": "https://github.com/Islam888/insideViewport.js",
+    "files": [
+        "insideViewport.js"
+    ]
+
+}
